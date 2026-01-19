@@ -1,0 +1,41 @@
+/* Minimal custom styles - Bootstrap 5.3 handles most styling */
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Service cards hover effect */
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Pricing cards hover effect */
+.pricing-card {
+    transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Smooth button transitions */
+.btn {
+    transition: all 0.3s ease;
+}
+
+/* Accordion button focus state */
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+/* Footer */
+.footer-section {
+    margin-top: auto;
+}
